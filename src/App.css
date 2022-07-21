@@ -1,0 +1,40 @@
+*  {
+  margin: 0;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f5f6fa;
+  padding: 20px;
+}
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.app_left {
+  flex: 0.9;
+}
+.app_header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.app_header>h1{
+  color: red;
+  font-size: 2rem;
+}
+
+.app_right{
+  display: flex;
+  flex-direction: column;
+}
+
+.line{
+  flex-grow:1;
+}
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
